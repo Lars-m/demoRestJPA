@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-DeployRemote</actionName>
+            <displayName>DeployRemote</displayName>
+            <goals>
+                <goal>tomcat7:deploy</goal>
+            </goals>
+            <properties>
+                <TOMCAT_USER>admin</TOMCAT_USER>
+                <TOMCAT_PASSWORD>dat2800dat</TOMCAT_PASSWORD>
+            </properties>
+        </action>
+        <action>
+            <actionName>CUSTOM-DemoV2</actionName>
+            <displayName>DemoV2</displayName>
+            <goals>
+                <goal>org.apache.tomcat.maven:tomcat7-maven-plugin:2.2:deploy</goal>
+            </goals>
+            <properties>
+                <TOMCAT_USER>admin</TOMCAT_USER>
+                <TOMCAT_PASSWORD>dat2800dat</TOMCAT_PASSWORD>
+            </properties>
+        </action>
+    </actions>
